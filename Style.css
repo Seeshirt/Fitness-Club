@@ -63,6 +63,21 @@ ul {
 .Menu li{
     position: relative;
 }
+.sub-menu{
+    display: flex;
+    position: absolute;
+    top: 250%;
+    left: -9rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 35vw;
+    z-index: 1;
+}
+.sub-menu ul{
+    flex-wrap: wrap;
+}
 .Login button {
     
     background-color: #cc202e;
