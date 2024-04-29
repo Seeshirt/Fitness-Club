@@ -154,16 +154,16 @@ color: black;
 }
 
 .Slider .Content h2 {
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 20px;
     color: #000000;
 
 }
 
 .Slider .Content p {
-    font-size: 20px;
+    font-size: 23px;
     line-height: 1.5;
-    color: rgb(6, 247, 18);
+    color: rgb(255, 255, 255);
 }
 
 
@@ -325,7 +325,126 @@ color: black;
     line-height: 1.5;
 }
 
+.Explore{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+.heading h2{
+font-size: 28px;
+color:#666;
+}
+.heading p{
+    font-size: 16px;
+    color: #666;
+   width: 80% ;
+   margin: 20px auto;
+   line-height: 1.5; 
+}
+.Treading h3{
+    font-size: 25px;
+    margin-right: 10px;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    text-decoration: none;
+   
 
+}
+.Flex {
+    display: flex;
+    align-items: center; 
+}
+.Flex .video {
+    position: relative;
+    width: 50%;
+    
+    overflow: hidden;
+    background: url('./Video/istockphoto-1325927476-640_adpp_is.mp4') no-repeat center center;
+    background-size: cover;  
+    flex-basis: 50%; 
+    padding-right: 20px;
+    flex: 1;
+    text-align: center;
+}
+.video .VideoBackground{
+
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: inline-block;
+    object-fit: cover;
+
+    position: relative;
+    height: 60vh; 
+    overflow: hidden;
+    z-index: -1;
+} 
+.flex-heading h4{
+   
+    font-size: 20px;
+    color:#666;
+    margin-right: 33rem;    
+}
+.flex-heading  span{
+    font-size: 19px;
+    color: #666;
+    margin-right: 33rem;
+    
+}
+.flex-heading p{
+    font-size: 17px;
+    color: #333;
+    margin-right: 33rem;
+}
+.Flex .Workout {
+    flex: 1; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin-top: -5px;
+}
+
+
+.Flex .Workout-col{
+    text-align: center;
+    margin-top: 20px;
+    flex-basis: 33.33%; 
+    padding: 0 10px; 
+    box-sizing: border-box; 
+   
+}
+ .Workout-col img{
+    width: 100%;
+    max-width: 400px; 
+    height: 100vh;
+    display: block; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    height:18rem;
+    position: relative;
+    flex-wrap: wrap;
+    flex-basis: 50%; 
+    padding: 0 0px;
+}
+.Workout-col h4{
+    position: absolute;
+    font-size: 15px;
+    color: rgb(252, 251, 251);
+   
+   
+    z-index: 1;
+    margin-top: -30px;
+    padding: 2px 20px
+   
+}
+.Flex .images {
+    flex-basis: 50%; 
+    display: flex;
+    flex-wrap: wrap; 
+}
 @media screen and (max-width: 768px) {
     
     .Top-header {
