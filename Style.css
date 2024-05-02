@@ -383,7 +383,7 @@ color:#666;
     overflow: hidden;
     z-index: -1;
 } 
-.flex-heading h4{
+.flex-heading a{
    
     font-size: 20px;
     color:#666;
@@ -445,6 +445,220 @@ color:#666;
     flex-basis: 50%; 
     display: flex;
     flex-wrap: wrap; 
+}
+
+
+.Reason {
+   display: flex;
+    margin-top: 15px;
+   
+    
+}
+
+.Reason-Box {
+    flex: 1; 
+    padding: 20px;
+    border: 1px solid black; 
+    overflow: hidden; 
+    width: 60%;
+    margin-right: 10px;
+}
+
+.Reason-Box-content {
+    flex: 1;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    width: 60%;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.Reason-Box-content p {
+    margin: 0;
+    opacity: 0;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    5% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    25% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    30% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
+.Related{
+  
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px; 
+    margin-top: 20px;
+}
+.Course h2{
+    font-size: 24px; 
+    margin-bottom: 10px;
+    
+}
+.Slider-content {
+    display: flex;
+    transition: transform 0.5s ease;
+
+}
+
+.slide {
+   min-width: 10%;
+    flex-shrink: 0;
+    flex: 0 0 auto;
+    margin: 0 10px; 
+    transition: transform 0.5s ease; 
+    border: 1px solid black;
+    display: inline-block;
+    width: 200px; 
+    
+}
+.slide img{
+    width: 100%;
+    height: auto;
+}
+.slide h4{
+    position: absolute;
+    margin-left: 6rem;
+    z-index: 1;
+    margin-top: -2rem;
+    padding: 3px 9px;
+    background-color: rgba(242, 93, 93, 0.8);
+    color: white;
+}
+.slide a{
+    text-align: center;
+    font-size: 17px;
+}
+.slide div:nth-child(1){
+    background-color: #64ec15;
+}
+.slide h4:nth-child(3){
+    background-color: #64ec15;
+}
+.slide h4:nth-child(8){
+    background-color: #64ec15;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    opacity: 0; 
+    transition: opacity 0.5s;
+}
+
+.Courses-box:hover .overlay {
+    opacity: 1;
+}
+
+.Online{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    padding: 20px; 
+    margin-top: 20px;
+  
+    
+}
+.Learning{
+    display: flex;
+    
+
+}
+.Learning-box{
+    border: 1px solid black;
+    width: 100%;
+    height: 400px;
+    margin-right: 10px;
+}
+.Learning-box h3{
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+.Learning-box p{
+    font-size: 19px;
+    line-height: 1.5;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.Learning  .Learning-box:nth-child(1)
+{
+    background-color: #fdba01;
+    color: white;
+}
+.Learning  div:last-child{
+background-color: #ed1085;
+color: white;
+}
+.Popular{
+    
+    flex-direction: column;
+    align-items: center;
+    
+    
+    padding: 20px; 
+    margin-top: 20px;
+}
+.Starting h2{
+font-size: 20px;
+margin-bottom: 10px;
+}
+.Popular-Courses{
+    display: flex;
+
+}
+.Popular-Courses-box{
+    border: 1px solid black;
+    width: 100%;
+   ;
+    margin-right: 10px;  
+}
+.Popular-Courses-box img{
+    width: 100%;
+    height: auto;
+}
+.Popular-Courses-box h4{
+    position: absolute;
+    margin-left: 3rem;
+    z-index: 1;
+    margin-top: -2rem;
+    padding: 3px 9px;
+    background-color: rgba(242, 93, 93, 0.8);
+    color: white;
+}
+.Popular-Courses-box a{
+    text-align: center;
+    font-size: 17px;
+}
+.Footer{
+    
 }
 @media screen and (max-width: 768px) {
     
