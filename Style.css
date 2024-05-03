@@ -657,9 +657,145 @@ margin-bottom: 10px;
     text-align: center;
     font-size: 17px;
 }
-.Footer{
+
+.Footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #262b35;
+    color: white;
+    padding: 30px 0;
+    border-bottom: 1px solid rgb(106, 104, 104);
+}
+
+.About-company {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+
+.About-company-box {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.About {
+    color: #333;
     
 }
+.About h2{
+    font-size: 19px;
+    color: white;
+}
+.About p{
+    color: #a1a1a1;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.About p:hover{
+    color: white
+}
+.Company span {
+    display: block;
+    margin-top: 10px;
+    color: #a1a1a1;
+}
+.Company span:hover{
+   color: white;
+}
+
+.Special span {
+    display: block;
+    margin-top: 10px;
+    color: #a1a1a1;
+}
+.Special span:hover{
+    color: white;
+}
+
+.Dance-Styles span {
+    display: block;
+    margin-top: 10px;
+    color: #a1a1a1;
+}
+.Dance-Styles span:hover{
+    color: white;   
+}
+
+.Subscribe {
+    color: #333;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.Subscribe h2{
+    font-size: 19px;
+    color: white;
+}
+.Subscribe p {
+    margin-top: 10px;
+    color: #a1a1a1;
+}
+.Subscribe p:hover{
+    color: white; 
+}
+.Subscribe button {
+  
+    border: 0;
+    padding: 4px 18px;
+    letter-spacing: inherit;
+    overflow: hidden;
+    color: rgb(201, 50, 50);
+}
+
+
+
+.Subscribe button i {
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+
+.social-icon {
+    text-align: center; 
+    margin-top: 18rem;
+}
+
+.menu {
+    margin-top: 24px; 
+}
+
+.menu ul {
+    padding: 0;
+    list-style-type: none; 
+}
+
+.menu ul li {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+.menu ul li:last-child {
+    margin-right: 0; 
+}
+
+.menu ul li a {
+    display: block; 
+    padding: 10px; 
+    color:white; 
+}
+
+
+
+
+.bi {
+    font-size: 22px; 
+}
+
 @media screen and (max-width: 768px) {
     
     .Top-header {
